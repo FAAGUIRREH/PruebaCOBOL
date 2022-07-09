@@ -53,6 +53,7 @@
            OPEN I-O CLIENTES.
            IF ST-FILE > "7"
                DISPLAY "ERROR AL ABRIR ARCHIVOS".
+               DISPLAY "PRIMERA MODIFICACION HECHA EN GIT".
 
 
        CERRAR-ARCHIVOS.
