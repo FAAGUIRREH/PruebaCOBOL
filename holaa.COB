@@ -57,6 +57,7 @@
 
 
        CERRAR-ARCHIVOS.
+               DISPLAY "ESTOY CERRANDO CLIENTES".
            CLOSE CLIENTES.
 
        END PROGRAM "Inicio".
