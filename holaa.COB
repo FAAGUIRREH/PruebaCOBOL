@@ -47,6 +47,7 @@
        PABLO.
            PERFORM ABRIR-ARCHIVOS.
            PERFORM CERRAR-ARCHIVOS.
+           PERFORM PRUEBA-GIT.
            STOP RUN.
 
        ABRIR-ARCHIVOS.
@@ -58,5 +59,9 @@
 
        CERRAR-ARCHIVOS.
            CLOSE CLIENTES.
+
+
+       PRUEBA-GIT.
+           DISPLAY "ACTUALIZACION RAMA PRINCIPAL".
 
        END PROGRAM "Inicio".
