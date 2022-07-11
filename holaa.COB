@@ -48,6 +48,8 @@
            PERFORM ABRIR-ARCHIVOS.
            PERFORM CERRAR-ARCHIVOS.
            PERFORM PRUEBA-GIT.
+           PRUEBA-BUS.
+
            STOP RUN.
 
        ABRIR-ARCHIVOS.
@@ -64,5 +66,8 @@
 
        PRUEBA-GIT.
            DISPLAY "ACTUALIZACION RAMA PRINCIPAL".
+
+       PRUEBA-BUS.
+           DISPLAY "EDDY LO PELA".
 
        END PROGRAM "Inicio".
